@@ -1,7 +1,6 @@
 import connectDB from "./db/connection.js";
 import { app } from "./app.js";
 import 'dotenv/config'
-import express from "express";
 
 connectDB()
 .then(()=>{
