@@ -8,7 +8,7 @@ connectDB()
             console.log("Error in express on:", err);
         })
         app.listen(process.env.PORT || 8000,()=>{
-            console.log("Server Is Start");
+            console.log("Server Is Start",process.env.PORT);
         })
 })
 .catch((err)=>{
